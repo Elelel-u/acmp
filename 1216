@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int a[1000], n, aa, s=0;
+int main() {
+cin>>n;
+for(int i=0; i<n; i++) cin >> a[i];
+cin >> aa;
+for(int i=0;i<n;i++) if (a[i]==aa) s++;
+cout << s;
+}
